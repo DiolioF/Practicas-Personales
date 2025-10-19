@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         playButton.addEventListener("click", () => {
             console.log("Botón '¡Jugá YA!' presionado.");
             // Aquí puedes agregar la acción real, como redirigir o abrir un modal
-            alert("¡Iniciando el juego!");
+            window.open("https://wa.me/5491162262830?text=Hola,%20quiero%20jugar%20con%20mi%20bono%20del%20100%", "_blank");
         });
     }
 
